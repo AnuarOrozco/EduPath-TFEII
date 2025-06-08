@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Contents from './pages/Contents';
-// import Roadmap from './pages/Roadmap';
-// import Simulators from './pages/Simulators';
+import Roadmap from './pages/Roadmap';
+import Simulators from './pages/Simulators';
 // import Profile from './pages/Profile';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -21,14 +21,11 @@ function App() {
           <Route path="/contenidos" element={<Contents />} />
           
           {/* Ruta de Roadmap - Pendiente de implementación */}
-          {/*
           <Route path="/roadmap" element={<Roadmap />} />
-          */}
+          
           
           {/* Ruta de Simuladores - Pendiente de implementación */}
-          {/*
           <Route path="/simuladores" element={<Simulators />} />
-          */}
           
           {/* Ruta de Perfil - Pendiente de implementación */}
           {/*
